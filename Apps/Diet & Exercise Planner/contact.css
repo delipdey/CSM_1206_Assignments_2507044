@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anta';
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(43, 30, 24);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav{
+    height: 10vh;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(16, 4, 4);
+}
+
+.logo a{
+    color: bisque;
+    font-size: 2rem;
+}
+
+.hamburger, .crossbtn{
+    background-color: bisque;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.crossbtn{
+    display: none;
+}
+
+/* .crossbtn{
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.categories{
+    background-color: bisque;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: none;
+}
+
+.cat{
+    border-bottom: 1px solid black;
+    padding: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cat a{
+    color: black;
+}
+
+.match{
+    background-color: rgb(61, 27, 27);
+    height: 30vh;
+}
+
+.display{
+    background-color: rgb(61, 27, 27);
+    height: 12vh;
+    padding: 0 50px;
+}
+
+.numbers{
+    background-color: rgb(61, 27, 27);
+    height: 37vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.number{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.call{
+    background-color: rgb(61, 27, 27);
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callfunction{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    border-radius: 28px;
+    width: 50%;
+    margin-right: 15px;
+}
+
+.touch img{
+    transform: scale(3.5);
+    position: relative;
+    top: 3.2px;
+    right: 4px;
+}
+
+.callfunction span{
+    position: relative;
+    left: 70px;
+    opacity: 0.5;
+}
+
+.back{
+    background-color: bisque;
+    border-radius: 90px;
+}
+
+.callfunction, .back{
+    padding: 1rem;
+}
+
+
+/* Settings */
+
+.mode, .settone, .colorcustomize, .clearhistory, .soundtoggle, .emergency, .trash{
+    background-color: rgb(61, 27, 27);
+    height: 12.7vh;
+    display: flex;
+    align-items: center;
+    color: bisque;
+    font-size: 28px;
+    border-bottom: 1px solid bisque;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc span{
+    font-size: 1rem;
+}
+
+.clearhistorycont{
+    display: flex;
+}
+
+.
+
+.dropdown{
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.clearhistory .option, .mode .option{
+        background-color: rgb(16, 4, 4);
+        border: 1px solid bisque;
+}
+
+.dropcont div, .drop-content div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bin{
+    height: 36px;
+    width: 36px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 6px;
+    position: relative;
+    top: 3px;
+}
+
+.settings .option{
+    position: relative;
+    right: 20px;
+}
+
+.drop-content .option{
+    display: none;/
+}
+
+.dropcont .option{
+    display: none;
+}
+
+.settings button{
+    position: relative;
+    right: 20px;
+}
+
+.settings .bin{
+    position: relative;
+    right: 20px;
+}
